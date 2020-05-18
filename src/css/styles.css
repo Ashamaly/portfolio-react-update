@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif; }
+
+@font-face {
+  font-family: overwatch-italic;
+  src: url(https://us.battle.net/forums/static/fonts/bignoodletoo/bignoodletoo.woff); }
+@font-face {
+  font-family: overwatch;
+  src: url(https://us.battle.net/forums/static/fonts/f014015d/f014015d.woff); }
+nav {
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  top: 0;
+  position: fixed;
+  justify-content: center;
+  width: 100%;
+  padding: 1em;
+  overflow: hidden; }
+
+.nav-container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center; }
+
+.name {
+  font-family: overwatch;
+  left: 0;
+  position: absolute;
+  font-size: 2em; }
+
+.nav-links {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  padding: 0.5em;
+  bottom: 0; }
+  .nav-links li {
+    padding: 0 1.5em;
+    font-size: 1.4em;
+    font-family: overwatch; }
+
+.about {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 100vh;
+  align-content: center;
+  text-align: center;
+  margin-bottom: 2rem; }
+
+.skills {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  margin-bottom: 2rem; }
+  .skills div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 10%;
+    padding-right: 10%; }
+  .skills p {
+    background-color: white;
+    font-family: overwatch;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 2px;
+    border-radius: 0.5rem; }
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2rem; }
+  .projects h1 {
+    text-align: center;
+    width: 100%; }
+
+.pitem {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  align-content: center;
+  margin: 2%;
+  width: 45%;
+  justify-content: center; }
+  .pitem h1 {
+    padding: 15px;
+    width: 100%; }
+  .pitem p {
+    padding: 5%;
+    width: 50%; }
+
+.imga {
+  border-radius: 4px;
+  width: 50%;
+  padding: 5%; }
+
+.links {
+  margin: 1rem 4px; }
+
+.contact {
+  display: flex; }
+
+.footer {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8); }
+  .footer h1 {
+    color: white; }
+
+body {
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+/*# sourceMappingURL=styles.css.map */
