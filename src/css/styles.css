@@ -2,7 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  scroll-behavior: smooth; }
 
 @font-face {
   font-family: overwatch-italic;
@@ -17,8 +18,11 @@ nav {
   position: fixed;
   justify-content: center;
   width: 100%;
-  padding: 1em;
-  overflow: hidden; }
+  overflow: hidden;
+  animation-name: fadeDown;
+  animation-duration: 2.5s;
+  overflow: hidden;
+  z-index: 1; }
 
 .nav-container {
   position: relative;
@@ -35,16 +39,43 @@ nav {
 .nav-links {
   text-decoration: none;
   list-style: none;
-  display: flex;
-  padding: 0.5em;
-  bottom: 0; }
+  display: flex; }
   .nav-links li {
-    padding: 0 1.5em;
+    padding: 0.8em 1.5em;
     font-size: 1.4em;
-    font-family: overwatch; }
+    font-family: overwatch;
+    height: 100%; }
+  .nav-links li:hover {
+    background-color: rgba(180, 180, 180, 0.8); }
 
 .landing {
-  height: 100VH; }
+  height: 100VH;
+  width: 100%;
+  position: relative;
+  overflow: hidden; }
+
+.title {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  font-family: overwatch; }
+  .title h1 {
+    color: white;
+    animation-name: moveLeft;
+    animation-duration: 2s;
+    overflow: hidden; }
+  .title p {
+    color: white;
+    animation-name: moveRight;
+    animation-duration: 2s;
+    overflow: hidden; }
+
+.arrow {
+  display: flex; }
 
 .about {
   display: flex;
@@ -59,7 +90,8 @@ nav {
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
   text-align: center;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  padding: 1rem 0; }
   .skills div {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -136,5 +168,29 @@ body {
   background-image: url(../images/background.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed; }
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(120px);
+    opacity: 0; }
+  100% {
+    transform: translateX(0px);
+    opacity: 1; } }
+@keyframes moveRight {
+  0% {
+    transform: translateX(-120px);
+    opacity: 0; }
+  100% {
+    transform: translateX(0px);
+    opacity: 1; } }
+@keyframes fadeDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px); }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
 
 /*# sourceMappingURL=styles.css.map */

@@ -3,7 +3,7 @@ import './css/styles.css';
 
 function Skills() {
     return(
-    <div class="skills">
+    <div className="skills">
             <h1>Skills</h1>
             <div>
                 <p>Ruby</p>
@@ -16,6 +16,7 @@ function Skills() {
                 <p>Bulma</p>
                 <p>MongoDB</p>
                 <p>Mongoose</p>
+                <p>Bootstrap</p>
             </div>
         </div>
     );

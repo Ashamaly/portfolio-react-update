@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <body>
 
-        <div class="about">
+        <div className="about">
             <h1>About Me</h1>
             <div>
                 <p>I'm a brisbane based developer with experience in Ruby on Rails</p>
@@ -14,7 +14,7 @@ function App() {
         </div>
 
         
-        <div class="contact"></div>
+        <div className="contact"></div>
 
     </body>
     </div>
