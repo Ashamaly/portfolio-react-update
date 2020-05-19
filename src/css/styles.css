@@ -43,17 +43,21 @@ nav {
     font-size: 1.4em;
     font-family: overwatch; }
 
+.landing {
+  height: 100VH; }
+
 .about {
   display: flex;
   flex-direction: column;
   background-color: rgba(255, 255, 255, 0.8);
-  margin-top: 100vh;
+  margin-top: 1rem;
   align-content: center;
   text-align: center;
   margin-bottom: 2rem; }
 
 .skills {
   background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
   text-align: center;
   margin-bottom: 2rem; }
   .skills div {
@@ -63,6 +67,7 @@ nav {
     padding-right: 10%; }
   .skills p {
     background-color: white;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
     font-family: overwatch;
     text-align: center;
     font-size: 2rem;
@@ -87,7 +92,8 @@ nav {
   align-content: center;
   margin: 2%;
   width: 45%;
-  justify-content: center; }
+  justify-content: center;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2); }
   .pitem h1 {
     padding: 15px;
     width: 100%; }
@@ -98,10 +104,21 @@ nav {
 .imga {
   border-radius: 4px;
   width: 50%;
+  height: auto;
   padding: 5%; }
 
 .links {
-  margin: 1rem 4px; }
+  margin: 1rem 4px;
+  display: block;
+  width: auto;
+  height: auto;
+  background: #007896;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none; }
 
 .contact {
   display: flex; }

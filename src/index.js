@@ -6,11 +6,13 @@ import Header from './header';
 import Footer from './footer';
 import Projects from './projects';
 import Skills from './skills';
+import Landing from './landing'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
+    <Landing />
     <App />
     <Projects />
     <Skills />
