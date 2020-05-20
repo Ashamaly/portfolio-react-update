@@ -1,3 +1,8 @@
+// REMEMBER
+// RUN  npm run deploy
+// IN ORDER TO UPDATE YOUR CHANGES HERE TO GH PAGES
+// THANKS ASH LOVE YOU
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './css/index.css';
