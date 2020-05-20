@@ -6,10 +6,10 @@ function Header() {
         <nav>
             <div class="nav-container">
                 <ul class="nav-links">
-                    <li>About</li>
-                    <li>Skills</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
+                    <a href=""><li>About</li></a>
+                    <a><li>Skills</li></a>
+                    <a><li>Projects</li></a>
+                    <a><li>Contact</li></a>
                 </ul>
             </div>
         </nav>

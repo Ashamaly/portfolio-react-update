@@ -61,6 +61,12 @@ nav {
     li:hover {
         background-color: rgba(180, 180, 180, 0.8);
     }
+    a {
+        text-decoration: none;
+    }
+    a:visited {
+        color: rgba(0, 0, 0, 0.8);
+    }
 }
 
 .landing {
@@ -116,6 +122,38 @@ nav {
     align-content: center;
     text-align: center;
     margin-bottom: 2rem;
+
+    h1 {
+        margin: 0.6rem;
+        font-weight: 800;
+        font-style: overwatch;
+        font-size: 2rem;
+    }
+
+    p {
+        margin: 0.5rem;
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+
+    div {
+        display: flex;
+        justify-content: center;
+    }
+
+    a {
+        margin: 1rem 4px;
+        display: block;
+        width: auto;
+        height: auto;
+        background: rgb(0, 120, 150);
+        padding: 10px;
+        text-align: center;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+    }
 }
 
 .skills {
@@ -145,6 +183,14 @@ nav {
 
 }
 
+@media only screen and (max-width: 800px) {
+    .skills {
+        div {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
 .projects {
     display: flex;
     flex-wrap: wrap;
@@ -155,6 +201,7 @@ nav {
         width: 100%;
     }
 }
+
 
 .pitem {
     display: flex;
@@ -174,6 +221,26 @@ nav {
     p {
         padding: 5%;
         width: 50%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .projects {
+        flex-direction: column;
+    }
+
+    .pitem {
+        width: auto;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+
+        p {
+            width: auto;
+        }
+        a {
+            width: auto;
+        }
     }
 }
 

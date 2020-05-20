@@ -17,6 +17,7 @@ function Skills() {
                 <p>MongoDB</p>
                 <p>Mongoose</p>
                 <p>Bootstrap</p>
+                <p>Trello</p>
             </div>
         </div>
     );

@@ -7,10 +7,13 @@ function App() {
       <body>
 
         <div className="about">
-            <h1>About Me</h1>
+            <h1>About</h1>
+            <p>I'm a brisbane based Web Developer focused on continual growth and development in myself, there's always more to learn!</p>
             <div>
-                <p>I'm a brisbane based developer with experience in Ruby on Rails</p>
+                <a href='https://github.com/Ashamaly'>GitHub</a>
+                <a href='https://www.linkedin.com/in/ashley-beard-253900191/'>LinkedIn</a>
             </div>
+            
         </div>
 
         

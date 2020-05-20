@@ -11,12 +11,12 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header />
+    {/* <Header /> */}
     <Landing />
     <App />
     <Projects />
     <Skills />
-    <Footer />
+    {/* <Footer /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

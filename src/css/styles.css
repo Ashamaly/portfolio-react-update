@@ -47,6 +47,10 @@ nav {
     height: 100%; }
   .nav-links li:hover {
     background-color: rgba(180, 180, 180, 0.8); }
+  .nav-links a {
+    text-decoration: none; }
+  .nav-links a:visited {
+    color: rgba(0, 0, 0, 0.8); }
 
 .landing {
   height: 100VH;
@@ -94,6 +98,30 @@ nav {
   align-content: center;
   text-align: center;
   margin-bottom: 2rem; }
+  .about h1 {
+    margin: 0.6rem;
+    font-weight: 800;
+    font-style: overwatch;
+    font-size: 2rem; }
+  .about p {
+    margin: 0.5rem;
+    font-weight: 500;
+    font-size: 1.5rem; }
+  .about div {
+    display: flex;
+    justify-content: center; }
+  .about a {
+    margin: 1rem 4px;
+    display: block;
+    width: auto;
+    height: auto;
+    background: #007896;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none; }
 
 .skills {
   background-color: rgba(255, 255, 255, 0.8);
@@ -116,6 +144,9 @@ nav {
     margin: 2px;
     border-radius: 0.5rem; }
 
+@media only screen and (max-width: 800px) {
+  .skills div {
+    grid-template-columns: repeat(2, 1fr); } }
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -142,6 +173,19 @@ nav {
     padding: 5%;
     width: 50%; }
 
+@media only screen and (max-width: 800px) {
+  .projects {
+    flex-direction: column; }
+
+  .pitem {
+    width: auto;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center; }
+    .pitem p {
+      width: auto; }
+    .pitem a {
+      width: auto; } }
 .imga {
   border-radius: 4px;
   width: 50%;
