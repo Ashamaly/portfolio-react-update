@@ -10,7 +10,7 @@ function Landing() {
         </div>
 
         <div className="arrow">
-                <p>animated arrow down to signify scrolling</p>
+                <p>Scroll for more</p>
         </div>
     </div>
   );

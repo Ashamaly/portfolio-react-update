@@ -68,6 +68,7 @@ nav {
     width: 100%;
     position: relative;
     overflow: hidden;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5)
 }
 
 .title {
@@ -81,22 +82,30 @@ nav {
     font-family: overwatch;
 
     h1 {
-        color: white;
+        color: rgba(0, 0, 0, 0.9);
         animation-name: moveLeft;
         animation-duration: 2s;
         overflow: hidden;
     }
 
     p {
-        color: white;
+        color: rgba(0, 0, 0, 0.9);
         animation-name: moveRight;
         animation-duration: 2s;
         overflow: hidden;
+        font-weight: 600;
     }
 }
 
 .arrow {
     display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    bottom: 0;
+    padding-bottom: 1rem;
+    animation-name: fadeDown;
+    animation-duration: 3s;
 }
 
 .about {
@@ -208,8 +217,9 @@ nav {
 }
 
 body {
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/minimal1.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
 }
 
