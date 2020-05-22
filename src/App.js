@@ -16,9 +16,6 @@ function App() {
             
         </div>
 
-        
-        <div className="contact"></div>
-
     </body>
     </div>
   );

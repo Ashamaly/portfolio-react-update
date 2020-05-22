@@ -1,5 +1,6 @@
 import React from 'react';
 import './css/styles.css';
+import { Link } from "react-scroll";
 
 function Landing() {
   return (
@@ -10,7 +11,14 @@ function Landing() {
         </div>
 
         <div className="arrow">
-                <p>Scroll for more</p>
+          <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration= {200}
+            >Scroll for more</Link>
         </div>
     </div>
   );
