@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-react-update/static/css/main.62441e16.chunk.css",
-    "main.js": "/portfolio-react-update/static/js/main.9b3daaf3.chunk.js",
-    "main.js.map": "/portfolio-react-update/static/js/main.9b3daaf3.chunk.js.map",
+    "main.css": "/portfolio-react-update/static/css/main.b0455898.chunk.css",
+    "main.js": "/portfolio-react-update/static/js/main.ef5d4a39.chunk.js",
+    "main.js.map": "/portfolio-react-update/static/js/main.ef5d4a39.chunk.js.map",
     "runtime-main.js": "/portfolio-react-update/static/js/runtime-main.3ae58367.js",
     "runtime-main.js.map": "/portfolio-react-update/static/js/runtime-main.3ae58367.js.map",
-    "static/js/2.31ac59d7.chunk.js": "/portfolio-react-update/static/js/2.31ac59d7.chunk.js",
-    "static/js/2.31ac59d7.chunk.js.map": "/portfolio-react-update/static/js/2.31ac59d7.chunk.js.map",
+    "static/js/2.9badf900.chunk.js": "/portfolio-react-update/static/js/2.9badf900.chunk.js",
+    "static/js/2.9badf900.chunk.js.map": "/portfolio-react-update/static/js/2.9badf900.chunk.js.map",
     "index.html": "/portfolio-react-update/index.html",
-    "precache-manifest.06ad5e19978db7ac0bea45bf9eb83aa2.js": "/portfolio-react-update/precache-manifest.06ad5e19978db7ac0bea45bf9eb83aa2.js",
+    "precache-manifest.21a1a8c67cf4526b3ead88a38dd05f92.js": "/portfolio-react-update/precache-manifest.21a1a8c67cf4526b3ead88a38dd05f92.js",
     "service-worker.js": "/portfolio-react-update/service-worker.js",
-    "static/css/main.62441e16.chunk.css.map": "/portfolio-react-update/static/css/main.62441e16.chunk.css.map",
-    "static/js/2.31ac59d7.chunk.js.LICENSE.txt": "/portfolio-react-update/static/js/2.31ac59d7.chunk.js.LICENSE.txt",
+    "static/css/main.b0455898.chunk.css.map": "/portfolio-react-update/static/css/main.b0455898.chunk.css.map",
+    "static/js/2.9badf900.chunk.js.LICENSE.txt": "/portfolio-react-update/static/js/2.9badf900.chunk.js.LICENSE.txt",
     "static/media/chatrade.png": "/portfolio-react-update/static/media/chatrade.c230d2a4.png",
     "static/media/gazoot.png": "/portfolio-react-update/static/media/gazoot.6445dc77.png",
     "static/media/styles.css": "/portfolio-react-update/static/media/minimal1.556539b7.jpg",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3ae58367.js",
-    "static/js/2.31ac59d7.chunk.js",
-    "static/css/main.62441e16.chunk.css",
-    "static/js/main.9b3daaf3.chunk.js"
+    "static/js/2.9badf900.chunk.js",
+    "static/css/main.b0455898.chunk.css",
+    "static/js/main.ef5d4a39.chunk.js"
   ]
 }
